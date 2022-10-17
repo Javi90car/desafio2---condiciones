@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones javascript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div>
+        <p class="text-center">Puedes llevar hasta 10 stickers en total</p>
+        <div class="container">
+            <div class="sticker">
+                <img src="assets/img/homer.jpg" alt="">
+                <input type="number" id="stickerHomer" min="0" max="10" value="0">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/lisa.png" alt="">
+                <input type="number" id="stickerLisa"  min="0" max="10" value="0">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/bart.jpg" alt="">
+                <input type="number" id="stickerBart"  min="0" max="10" value="0">
+            </div>
+        </div>
+        <p id="textDinamic"></p>
+        <div class="btn-center">
+            <button id="btnpart2">Verificar</button>
+        </div>
+    </div>
+    <script src="assets/js/main1.js"></script>
+</body>
+
+</html>

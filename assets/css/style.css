@@ -1,0 +1,57 @@
+/* CSS para desafio condiciones parte 1*/
+.desafiopart1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 10%;
+}
+
+.border{
+    border: 2px solid red;
+}
+
+img{
+    padding: 10px;
+}
+
+/* CSS para desafio condiciones parte 2*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-center, #textDinamic{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS para desafio condiciones parte 3 */
+
+.desafio3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 0;
+}
+
+.btnIngresar{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10%;
+}
+
