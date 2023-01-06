@@ -11,11 +11,11 @@ const stickerBart = document.querySelector("#stickerBart")
 btnpart2.addEventListener("click",()=>{
     const resultado = parseInt(stickerHomer.value) + parseInt(stickerLisa.value) + parseInt(stickerBart.value);
     if(resultado > 10){
-        textDinamic.textContent = "Llevas demasiados stickers";
+        textDinamic.innerHTML = "Llevas demasiados stickers";
         return
     }
     if(resultado <= 10){
-        textDinamic.textContent = `Llevas ${resultado} stickers`;
+        textDinamic.innerHTML = `Llevas ${resultado} stickers`;
         return
     }
 })

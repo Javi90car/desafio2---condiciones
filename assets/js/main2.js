@@ -7,15 +7,15 @@ const textPass = document.querySelector("#textPass")
 ingresar.addEventListener("click",()=>{
     const resultado = pass1.value + pass2.value + pass3.value;
     if(resultado === '911'){
-        textPass.textContent = "Password 1 correcto";
+        textPass.innerHTML = "Password 1 correcto";
         return
     }
 
     if(resultado === '714'){
-        textPass.textContent = "Password 2 correcto";
+        textPass.innerHTML = "Password 2 correcto";
         return
     }else{
-        textPass.textContent = "Password incorrecto"
+        textPass.innerHTML = "Password incorrecto"
     }
   
 })
